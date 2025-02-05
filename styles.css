@@ -1,0 +1,123 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #a87ca0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Secciones */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Galería */
+.imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.imagenes img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.imagenes img:hover {
+    transform: scale(1.05);
+}
+
+/* Servicios */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #e0bbd3;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+/* Testimonios */
+blockquote {
+    font-style: italic;
+    font-size: 18px;
+    color: #6b6b6b;
+}
+
+/* Formulario de contacto */
+form {
+    max-width: 400px;
+    margin: auto;
+    text-align: left;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #a87ca0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #8c6482;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
